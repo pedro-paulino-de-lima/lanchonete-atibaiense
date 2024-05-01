@@ -24,7 +24,9 @@ main
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 25px;
+    background-image: url("https://media.istockphoto.com/id/165907430/vector/seamless-junk-food-background.jpg?s=612x612&w=0&k=20&c=x8sDftTphtw-_mzXE0r_qsA4YsN2yyw0YqgLqnhcZb4=");
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 main div

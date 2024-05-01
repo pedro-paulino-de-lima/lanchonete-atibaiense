@@ -1,0 +1,117 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    font-weight: 500;
+    background: #F24333;
+    text-align: center;
+    padding: 1px;
+    color: white;
+}
+
+header img
+{
+    width: 200px;
+    height: 100px;
+}
+
+main
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+main div
+{
+    margin-top: 20px;
+}
+
+nav a
+{
+    border-radius: 5px;
+    padding: 10px;
+    background: red;
+    color: white;
+    margin-left: 5px;
+    text-decoration: none;
+    -webkit-transition: all 0.5s ease;
+}
+
+nav a:hover
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer
+{
+    background-color: black;
+    color: white;
+    padding: 1px;
+    text-align: center;
+}
+footer a
+{
+    color: gray;
+    text-decoration: none;
+}
+
+footer a:hover
+{
+    text-decoration: underline;
+}
+
+footer a img
+{
+    background-color: none;
+    -webkit-transition: all 0.5s ease;
+}
+
+footer a img:hover
+{
+    rotate: -20deg;
+}
+
+.signup-box
+{
+    background-color: red;
+    color: white;
+    text-align: center;
+    width: 250px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.signup-box input[type=text],
+.signup-box input[type=tel],
+.signup-box select
+{
+    background-color: white;
+    color: red;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.signup-box button
+{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    border-color: white;
+    -webkit-transition: all 0.5s ease;
+}
+
+.signup-box button:hover
+{
+    border-radius: 10px;
+    cursor: pointer;
+}

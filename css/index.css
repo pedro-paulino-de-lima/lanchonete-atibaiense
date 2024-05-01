@@ -1,0 +1,124 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    font-weight: 500;
+    background: #F24333;
+    text-align: center;
+    padding: 1px;
+    color: white;
+}
+
+header img
+{
+    width: 200px;
+    height: 100px;
+}
+
+.line-products
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+.product
+{
+    text-align: center;
+    width: 150px;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.product select
+{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: white;
+    color: red;
+}
+
+.product img
+{
+    background-color: white;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.product button
+{
+    background-color: rgb(178, 66, 66);
+    color: white;
+    border-color: none;
+    border-radius: 10px;
+    padding: 10px;
+    -webkit-transition: all 0.5s ease;
+}
+
+.product button:hover
+{
+    background-color: red;
+    cursor: pointer;
+}
+
+main
+{
+    background-image: url("https://media.istockphoto.com/id/165907430/vector/seamless-junk-food-background.jpg?s=612x612&w=0&k=20&c=x8sDftTphtw-_mzXE0r_qsA4YsN2yyw0YqgLqnhcZb4=");
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav a
+{
+    border-radius: 5px;
+    padding: 10px;
+    background: red;
+    color: white;
+    margin-left: 5px;
+    text-decoration: none;
+    -webkit-transition: all 0.5s ease;
+}
+
+nav a:hover
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer
+{
+    background-color: black;
+    color: white;
+    padding: 1px;
+    text-align: center;
+}
+footer a
+{
+    color: gray;
+    text-decoration: none;
+}
+
+footer a:hover
+{
+    text-decoration: underline;
+}
+
+footer a img
+{
+    background-color: none;
+    -webkit-transition: all 0.5s ease;
+}
+
+footer a img:hover
+{
+    rotate: -20deg;
+}
